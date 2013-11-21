@@ -1,0 +1,6 @@
+  ***** 10/11/2013 Cheng Tsz Tung *****
+
+— Create a ftp iOS project
+— Upload project to git server
+
+d

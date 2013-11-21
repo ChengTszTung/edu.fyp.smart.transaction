@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F814CBA2182F825300FE3E5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F814CBA1182F825300FE3E5A /* Foundation.framework */; };
+		F814CBA4182F825300FE3E5A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F814CBA3182F825300FE3E5A /* CoreGraphics.framework */; };
+		F814CBA6182F825300FE3E5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F814CBA5182F825300FE3E5A /* UIKit.framework */; };
+		F814CBAC182F825300FE3E5A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F814CBAA182F825300FE3E5A /* InfoPlist.strings */; };
+		F814CBAE182F825300FE3E5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F814CBAD182F825300FE3E5A /* main.m */; };
+		F814CBB2182F825300FE3E5A /* FYPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F814CBB1182F825300FE3E5A /* FYPAppDelegate.m */; };
+		F814CBB5182F825300FE3E5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F814CBB3182F825300FE3E5A /* Main.storyboard */; };
+		F814CBB8182F825300FE3E5A /* FYPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F814CBB7182F825300FE3E5A /* FYPViewController.m */; };
+		F814CBBA182F825300FE3E5A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F814CBB9182F825300FE3E5A /* Images.xcassets */; };
+		F814CBC1182F825300FE3E5A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F814CBC0182F825300FE3E5A /* XCTest.framework */; };
+		F814CBC2182F825300FE3E5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F814CBA1182F825300FE3E5A /* Foundation.framework */; };
+		F814CBC3182F825300FE3E5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F814CBA5182F825300FE3E5A /* UIKit.framework */; };
+		F814CBCB182F825300FE3E5A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F814CBC9182F825300FE3E5A /* InfoPlist.strings */; };
+		F814CBCD182F825300FE3E5A /* Smart_TransactionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F814CBCC182F825300FE3E5A /* Smart_TransactionTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F814CBC4182F825300FE3E5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F814CB96182F825300FE3E5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F814CB9D182F825300FE3E5A;
+			remoteInfo = "Smart Transaction";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F814CB9E182F825300FE3E5A /* Smart Transaction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Transaction.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F814CBA1182F825300FE3E5A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F814CBA3182F825300FE3E5A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F814CBA5182F825300FE3E5A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F814CBA9182F825300FE3E5A /* Smart Transaction-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Smart Transaction-Info.plist"; sourceTree = "<group>"; };
+		F814CBAB182F825300FE3E5A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F814CBAD182F825300FE3E5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F814CBAF182F825300FE3E5A /* Smart Transaction-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smart Transaction-Prefix.pch"; sourceTree = "<group>"; };
+		F814CBB0182F825300FE3E5A /* FYPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYPAppDelegate.h; sourceTree = "<group>"; };
+		F814CBB1182F825300FE3E5A /* FYPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYPAppDelegate.m; sourceTree = "<group>"; };
+		F814CBB4182F825300FE3E5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F814CBB6182F825300FE3E5A /* FYPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYPViewController.h; sourceTree = "<group>"; };
+		F814CBB7182F825300FE3E5A /* FYPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYPViewController.m; sourceTree = "<group>"; };
+		F814CBB9182F825300FE3E5A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F814CBBF182F825300FE3E5A /* Smart TransactionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart TransactionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F814CBC0182F825300FE3E5A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F814CBC8182F825300FE3E5A /* Smart TransactionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Smart TransactionTests-Info.plist"; sourceTree = "<group>"; };
+		F814CBCA182F825300FE3E5A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F814CBCC182F825300FE3E5A /* Smart_TransactionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Smart_TransactionTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F814CB9B182F825300FE3E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F814CBA4182F825300FE3E5A /* CoreGraphics.framework in Frameworks */,
+				F814CBA6182F825300FE3E5A /* UIKit.framework in Frameworks */,
+				F814CBA2182F825300FE3E5A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F814CBBC182F825300FE3E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F814CBC1182F825300FE3E5A /* XCTest.framework in Frameworks */,
+				F814CBC3182F825300FE3E5A /* UIKit.framework in Frameworks */,
+				F814CBC2182F825300FE3E5A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F814CB95182F825300FE3E5A = {
+			isa = PBXGroup;
+			children = (
+				F814CBA7182F825300FE3E5A /* Smart Transaction */,
+				F814CBC6182F825300FE3E5A /* Smart TransactionTests */,
+				F814CBA0182F825300FE3E5A /* Frameworks */,
+				F814CB9F182F825300FE3E5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F814CB9F182F825300FE3E5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F814CB9E182F825300FE3E5A /* Smart Transaction.app */,
+				F814CBBF182F825300FE3E5A /* Smart TransactionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F814CBA0182F825300FE3E5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F814CBA1182F825300FE3E5A /* Foundation.framework */,
+				F814CBA3182F825300FE3E5A /* CoreGraphics.framework */,
+				F814CBA5182F825300FE3E5A /* UIKit.framework */,
+				F814CBC0182F825300FE3E5A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F814CBA7182F825300FE3E5A /* Smart Transaction */ = {
+			isa = PBXGroup;
+			children = (
+				F814CBB0182F825300FE3E5A /* FYPAppDelegate.h */,
+				F814CBB1182F825300FE3E5A /* FYPAppDelegate.m */,
+				F814CBB3182F825300FE3E5A /* Main.storyboard */,
+				F814CBB6182F825300FE3E5A /* FYPViewController.h */,
+				F814CBB7182F825300FE3E5A /* FYPViewController.m */,
+				F814CBB9182F825300FE3E5A /* Images.xcassets */,
+				F814CBA8182F825300FE3E5A /* Supporting Files */,
+			);
+			path = "Smart Transaction";
+			sourceTree = "<group>";
+		};
+		F814CBA8182F825300FE3E5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F814CBA9182F825300FE3E5A /* Smart Transaction-Info.plist */,
+				F814CBAA182F825300FE3E5A /* InfoPlist.strings */,
+				F814CBAD182F825300FE3E5A /* main.m */,
+				F814CBAF182F825300FE3E5A /* Smart Transaction-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F814CBC6182F825300FE3E5A /* Smart TransactionTests */ = {
+			isa = PBXGroup;
+			children = (
+				F814CBCC182F825300FE3E5A /* Smart_TransactionTests.m */,
+				F814CBC7182F825300FE3E5A /* Supporting Files */,
+			);
+			path = "Smart TransactionTests";
+			sourceTree = "<group>";
+		};
+		F814CBC7182F825300FE3E5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F814CBC8182F825300FE3E5A /* Smart TransactionTests-Info.plist */,
+				F814CBC9182F825300FE3E5A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F814CB9D182F825300FE3E5A /* Smart Transaction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F814CBD0182F825300FE3E5A /* Build configuration list for PBXNativeTarget "Smart Transaction" */;
+			buildPhases = (
+				F814CB9A182F825300FE3E5A /* Sources */,
+				F814CB9B182F825300FE3E5A /* Frameworks */,
+				F814CB9C182F825300FE3E5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Smart Transaction";
+			productName = "Smart Transaction";
+			productReference = F814CB9E182F825300FE3E5A /* Smart Transaction.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F814CBBE182F825300FE3E5A /* Smart TransactionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F814CBD3182F825300FE3E5A /* Build configuration list for PBXNativeTarget "Smart TransactionTests" */;
+			buildPhases = (
+				F814CBBB182F825300FE3E5A /* Sources */,
+				F814CBBC182F825300FE3E5A /* Frameworks */,
+				F814CBBD182F825300FE3E5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F814CBC5182F825300FE3E5A /* PBXTargetDependency */,
+			);
+			name = "Smart TransactionTests";
+			productName = "Smart TransactionTests";
+			productReference = F814CBBF182F825300FE3E5A /* Smart TransactionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F814CB96182F825300FE3E5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FYP;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "1314-114102-02";
+				TargetAttributes = {
+					F814CBBE182F825300FE3E5A = {
+						TestTargetID = F814CB9D182F825300FE3E5A;
+					};
+				};
+			};
+			buildConfigurationList = F814CB99182F825300FE3E5A /* Build configuration list for PBXProject "Smart Transaction" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F814CB95182F825300FE3E5A;
+			productRefGroup = F814CB9F182F825300FE3E5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F814CB9D182F825300FE3E5A /* Smart Transaction */,
+				F814CBBE182F825300FE3E5A /* Smart TransactionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F814CB9C182F825300FE3E5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F814CBBA182F825300FE3E5A /* Images.xcassets in Resources */,
+				F814CBAC182F825300FE3E5A /* InfoPlist.strings in Resources */,
+				F814CBB5182F825300FE3E5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F814CBBD182F825300FE3E5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F814CBCB182F825300FE3E5A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F814CB9A182F825300FE3E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F814CBB8182F825300FE3E5A /* FYPViewController.m in Sources */,
+				F814CBB2182F825300FE3E5A /* FYPAppDelegate.m in Sources */,
+				F814CBAE182F825300FE3E5A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F814CBBB182F825300FE3E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F814CBCD182F825300FE3E5A /* Smart_TransactionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F814CBC5182F825300FE3E5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F814CB9D182F825300FE3E5A /* Smart Transaction */;
+			targetProxy = F814CBC4182F825300FE3E5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F814CBAA182F825300FE3E5A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F814CBAB182F825300FE3E5A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F814CBB3182F825300FE3E5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F814CBB4182F825300FE3E5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F814CBC9182F825300FE3E5A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F814CBCA182F825300FE3E5A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F814CBCE182F825300FE3E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F814CBCF182F825300FE3E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F814CBD1182F825300FE3E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Smart Transaction/Smart Transaction-Prefix.pch";
+				INFOPLIST_FILE = "Smart Transaction/Smart Transaction-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F814CBD2182F825300FE3E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Smart Transaction/Smart Transaction-Prefix.pch";
+				INFOPLIST_FILE = "Smart Transaction/Smart Transaction-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F814CBD4182F825300FE3E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Smart Transaction.app/Smart Transaction";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Smart Transaction/Smart Transaction-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Smart TransactionTests/Smart TransactionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F814CBD5182F825300FE3E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Smart Transaction.app/Smart Transaction";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Smart Transaction/Smart Transaction-Prefix.pch";
+				INFOPLIST_FILE = "Smart TransactionTests/Smart TransactionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F814CB99182F825300FE3E5A /* Build configuration list for PBXProject "Smart Transaction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F814CBCE182F825300FE3E5A /* Debug */,
+				F814CBCF182F825300FE3E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F814CBD0182F825300FE3E5A /* Build configuration list for PBXNativeTarget "Smart Transaction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F814CBD1182F825300FE3E5A /* Debug */,
+				F814CBD2182F825300FE3E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F814CBD3182F825300FE3E5A /* Build configuration list for PBXNativeTarget "Smart TransactionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F814CBD4182F825300FE3E5A /* Debug */,
+				F814CBD5182F825300FE3E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F814CB96182F825300FE3E5A /* Project object */;
+}

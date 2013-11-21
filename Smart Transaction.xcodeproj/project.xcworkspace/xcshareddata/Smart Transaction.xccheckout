@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EFAAAA73-F2A1-4FCE-832E-66FA6537779C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Smart Transaction</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>A7EB2B3B-EB23-412F-9101-A53B40630682</key>
+		<string>https://github.com/ChengTszTung/edu.fyp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Smart Transaction.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>57A96AA0-827B-4FB8-BBF1-F2D0F1246A1A</key>
+		<string>../../Smart Transaction</string>
+		<key>A7EB2B3B-EB23-412F-9101-A53B40630682</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ChengTszTung/edu.fyp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>A7EB2B3B-EB23-412F-9101-A53B40630682</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A7EB2B3B-EB23-412F-9101-A53B40630682</string>
+			<key>IDESourceControlWCCName</key>
+			<string>edu</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>57A96AA0-827B-4FB8-BBF1-F2D0F1246A1A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Smart Transaction</string>
+		</dict>
+	</array>
+</dict>
+</plist>
