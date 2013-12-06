@@ -1,3 +1,6 @@
 [submodule "Smart Transaction"]
 	path = Smart Transaction
 	url = /Users/PeterCheng/Documents/Developer/edu.fyp/Smart Transaction
+[submodule "edu.fyp"]
+	path = edu.fyp
+	url = https://github.com/ChengTszTung/edu.fyp.git
