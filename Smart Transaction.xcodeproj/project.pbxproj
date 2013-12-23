@@ -14,13 +14,25 @@
 		F814CBAE182F825300FE3E5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F814CBAD182F825300FE3E5A /* main.m */; };
 		F814CBB2182F825300FE3E5A /* FYPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F814CBB1182F825300FE3E5A /* FYPAppDelegate.m */; };
 		F814CBB5182F825300FE3E5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F814CBB3182F825300FE3E5A /* Main.storyboard */; };
-		F814CBB8182F825300FE3E5A /* FYPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F814CBB7182F825300FE3E5A /* FYPViewController.m */; };
 		F814CBBA182F825300FE3E5A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F814CBB9182F825300FE3E5A /* Images.xcassets */; };
 		F814CBC1182F825300FE3E5A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F814CBC0182F825300FE3E5A /* XCTest.framework */; };
 		F814CBC2182F825300FE3E5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F814CBA1182F825300FE3E5A /* Foundation.framework */; };
 		F814CBC3182F825300FE3E5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F814CBA5182F825300FE3E5A /* UIKit.framework */; };
 		F814CBCB182F825300FE3E5A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F814CBC9182F825300FE3E5A /* InfoPlist.strings */; };
 		F814CBCD182F825300FE3E5A /* Smart_TransactionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F814CBCC182F825300FE3E5A /* Smart_TransactionTests.m */; };
+		F8230CAE185F0D500025EA7B /* InvoiceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8230CAD185F0D500025EA7B /* InvoiceTableViewController.m */; };
+		F8230CB0185F10460025EA7B /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8230CAF185F10460025EA7B /* CoreText.framework */; };
+		F824D5951868176E00314442 /* ShopMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F824D5941868176E00314442 /* ShopMapViewController.m */; };
+		F824D598186817E000314442 /* ShopAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = F824D597186817E000314442 /* ShopAnnotation.m */; };
+		F83606411861922400B0F383 /* InvoiceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F83606401861922400B0F383 /* InvoiceDetailViewController.m */; };
+		F8C0C3AD18543F28009FB64C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C0C3AC18543F28009FB64C /* QuartzCore.framework */; };
+		F8C0C3AF1854E306009FB64C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C0C3AE1854E306009FB64C /* MapKit.framework */; };
+		F8C0C3B61854E5A7009FB64C /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C0C3B51854E5A7009FB64C /* Transaction.m */; };
+		F8C0C3B91854EE40009FB64C /* TransactionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C0C3B81854EE40009FB64C /* TransactionItem.m */; };
+		F8CE2FBB18676F6900AFD557 /* InvoicePDF.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CE2FB818676F6900AFD557 /* InvoicePDF.m */; };
+		F8CE2FBC18676F6900AFD557 /* InvoicePDFBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CE2FBA18676F6900AFD557 /* InvoicePDFBuilder.m */; };
+		F8CE2FC118676F8200AFD557 /* PDFScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CE2FBE18676F8200AFD557 /* PDFScrollView.m */; };
+		F8CE2FC218676F8200AFD557 /* TiledPDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CE2FC018676F8200AFD557 /* TiledPDFView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +57,35 @@
 		F814CBB0182F825300FE3E5A /* FYPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYPAppDelegate.h; sourceTree = "<group>"; };
 		F814CBB1182F825300FE3E5A /* FYPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYPAppDelegate.m; sourceTree = "<group>"; };
 		F814CBB4182F825300FE3E5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F814CBB6182F825300FE3E5A /* FYPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYPViewController.h; sourceTree = "<group>"; };
-		F814CBB7182F825300FE3E5A /* FYPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYPViewController.m; sourceTree = "<group>"; };
 		F814CBB9182F825300FE3E5A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F814CBBF182F825300FE3E5A /* Smart TransactionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart TransactionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F814CBC0182F825300FE3E5A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F814CBC8182F825300FE3E5A /* Smart TransactionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Smart TransactionTests-Info.plist"; sourceTree = "<group>"; };
 		F814CBCA182F825300FE3E5A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F814CBCC182F825300FE3E5A /* Smart_TransactionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Smart_TransactionTests.m; sourceTree = "<group>"; };
+		F8230CAC185F0D500025EA7B /* InvoiceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvoiceTableViewController.h; sourceTree = "<group>"; };
+		F8230CAD185F0D500025EA7B /* InvoiceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvoiceTableViewController.m; sourceTree = "<group>"; };
+		F8230CAF185F10460025EA7B /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		F824D5931868176E00314442 /* ShopMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopMapViewController.h; sourceTree = "<group>"; };
+		F824D5941868176E00314442 /* ShopMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopMapViewController.m; sourceTree = "<group>"; };
+		F824D596186817E000314442 /* ShopAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopAnnotation.h; sourceTree = "<group>"; };
+		F824D597186817E000314442 /* ShopAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopAnnotation.m; sourceTree = "<group>"; };
+		F836063F1861922400B0F383 /* InvoiceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvoiceDetailViewController.h; sourceTree = "<group>"; };
+		F83606401861922400B0F383 /* InvoiceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvoiceDetailViewController.m; sourceTree = "<group>"; };
+		F8C0C3AC18543F28009FB64C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F8C0C3AE1854E306009FB64C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F8C0C3B41854E5A7009FB64C /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transaction.h; sourceTree = "<group>"; };
+		F8C0C3B51854E5A7009FB64C /* Transaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transaction.m; sourceTree = "<group>"; };
+		F8C0C3B71854EE40009FB64C /* TransactionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionItem.h; sourceTree = "<group>"; };
+		F8C0C3B81854EE40009FB64C /* TransactionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionItem.m; sourceTree = "<group>"; };
+		F8CE2FB718676F6900AFD557 /* InvoicePDF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvoicePDF.h; sourceTree = "<group>"; };
+		F8CE2FB818676F6900AFD557 /* InvoicePDF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvoicePDF.m; sourceTree = "<group>"; };
+		F8CE2FB918676F6900AFD557 /* InvoicePDFBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvoicePDFBuilder.h; sourceTree = "<group>"; };
+		F8CE2FBA18676F6900AFD557 /* InvoicePDFBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvoicePDFBuilder.m; sourceTree = "<group>"; };
+		F8CE2FBD18676F8200AFD557 /* PDFScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFScrollView.h; sourceTree = "<group>"; };
+		F8CE2FBE18676F8200AFD557 /* PDFScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFScrollView.m; sourceTree = "<group>"; };
+		F8CE2FBF18676F8200AFD557 /* TiledPDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiledPDFView.h; sourceTree = "<group>"; };
+		F8CE2FC018676F8200AFD557 /* TiledPDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiledPDFView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +93,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8230CB0185F10460025EA7B /* CoreText.framework in Frameworks */,
+				F8C0C3AF1854E306009FB64C /* MapKit.framework in Frameworks */,
+				F8C0C3AD18543F28009FB64C /* QuartzCore.framework in Frameworks */,
 				F814CBA4182F825300FE3E5A /* CoreGraphics.framework in Frameworks */,
 				F814CBA6182F825300FE3E5A /* UIKit.framework in Frameworks */,
 				F814CBA2182F825300FE3E5A /* Foundation.framework in Frameworks */,
@@ -101,6 +137,9 @@
 		F814CBA0182F825300FE3E5A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F8230CAF185F10460025EA7B /* CoreText.framework */,
+				F8C0C3AE1854E306009FB64C /* MapKit.framework */,
+				F8C0C3AC18543F28009FB64C /* QuartzCore.framework */,
 				F814CBA1182F825300FE3E5A /* Foundation.framework */,
 				F814CBA3182F825300FE3E5A /* CoreGraphics.framework */,
 				F814CBA5182F825300FE3E5A /* UIKit.framework */,
@@ -112,11 +151,12 @@
 		F814CBA7182F825300FE3E5A /* Smart Transaction */ = {
 			isa = PBXGroup;
 			children = (
+				F824D592186816DB00314442 /* View */,
+				F8CAA190185A244700B41350 /* Controller */,
+				F8C0C3B01854E51F009FB64C /* Model */,
 				F814CBB0182F825300FE3E5A /* FYPAppDelegate.h */,
 				F814CBB1182F825300FE3E5A /* FYPAppDelegate.m */,
 				F814CBB3182F825300FE3E5A /* Main.storyboard */,
-				F814CBB6182F825300FE3E5A /* FYPViewController.h */,
-				F814CBB7182F825300FE3E5A /* FYPViewController.m */,
 				F814CBB9182F825300FE3E5A /* Images.xcassets */,
 				F814CBA8182F825300FE3E5A /* Supporting Files */,
 			);
@@ -150,6 +190,47 @@
 				F814CBC9182F825300FE3E5A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F824D592186816DB00314442 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F8CE2FBD18676F8200AFD557 /* PDFScrollView.h */,
+				F8CE2FBE18676F8200AFD557 /* PDFScrollView.m */,
+				F8CE2FBF18676F8200AFD557 /* TiledPDFView.h */,
+				F8CE2FC018676F8200AFD557 /* TiledPDFView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F8C0C3B01854E51F009FB64C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F8CE2FB718676F6900AFD557 /* InvoicePDF.h */,
+				F8CE2FB818676F6900AFD557 /* InvoicePDF.m */,
+				F8CE2FB918676F6900AFD557 /* InvoicePDFBuilder.h */,
+				F8CE2FBA18676F6900AFD557 /* InvoicePDFBuilder.m */,
+				F8C0C3B41854E5A7009FB64C /* Transaction.h */,
+				F8C0C3B51854E5A7009FB64C /* Transaction.m */,
+				F8C0C3B71854EE40009FB64C /* TransactionItem.h */,
+				F8C0C3B81854EE40009FB64C /* TransactionItem.m */,
+				F824D596186817E000314442 /* ShopAnnotation.h */,
+				F824D597186817E000314442 /* ShopAnnotation.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F8CAA190185A244700B41350 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F8230CAC185F0D500025EA7B /* InvoiceTableViewController.h */,
+				F8230CAD185F0D500025EA7B /* InvoiceTableViewController.m */,
+				F836063F1861922400B0F383 /* InvoiceDetailViewController.h */,
+				F83606401861922400B0F383 /* InvoiceDetailViewController.m */,
+				F824D5931868176E00314442 /* ShopMapViewController.h */,
+				F824D5941868176E00314442 /* ShopMapViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,9 +331,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F814CBB8182F825300FE3E5A /* FYPViewController.m in Sources */,
 				F814CBB2182F825300FE3E5A /* FYPAppDelegate.m in Sources */,
+				F8230CAE185F0D500025EA7B /* InvoiceTableViewController.m in Sources */,
+				F8C0C3B91854EE40009FB64C /* TransactionItem.m in Sources */,
+				F83606411861922400B0F383 /* InvoiceDetailViewController.m in Sources */,
+				F8CE2FBC18676F6900AFD557 /* InvoicePDFBuilder.m in Sources */,
+				F8CE2FBB18676F6900AFD557 /* InvoicePDF.m in Sources */,
+				F8C0C3B61854E5A7009FB64C /* Transaction.m in Sources */,
+				F8CE2FC118676F8200AFD557 /* PDFScrollView.m in Sources */,
+				F824D598186817E000314442 /* ShopAnnotation.m in Sources */,
+				F8CE2FC218676F8200AFD557 /* TiledPDFView.m in Sources */,
 				F814CBAE182F825300FE3E5A /* main.m in Sources */,
+				F824D5951868176E00314442 /* ShopMapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +551,7 @@
 				F814CBD2182F825300FE3E5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F814CBD3182F825300FE3E5A /* Build configuration list for PBXNativeTarget "Smart TransactionTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +560,7 @@
 				F814CBD5182F825300FE3E5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

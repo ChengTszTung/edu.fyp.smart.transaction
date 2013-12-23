@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="FpV-Es-GgK">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="FpV-Es-GgK">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
@@ -27,7 +27,7 @@
         <scene sceneID="8vK-cN-SSM">
             <objects>
                 <tabBarController definesPresentationContext="YES" id="FpV-Es-GgK" sceneMemberID="viewController">
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="BRV-ZQ-oor">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -36,32 +36,13 @@
                     <connections>
                         <segue destination="QAa-9v-DdY" kind="relationship" relationship="viewControllers" id="3LE-x4-4bx"/>
                         <segue destination="a2P-EQ-wTI" kind="relationship" relationship="viewControllers" id="Lmk-Fu-wI0"/>
-                        <segue destination="w3p-QM-byR" kind="relationship" relationship="viewControllers" id="Lxz-vH-Lq2"/>
+                        <segue destination="aMs-bD-kEB" kind="relationship" relationship="viewControllers" id="Ryi-yP-plo"/>
                         <segue destination="kYM-ia-f2H" kind="relationship" relationship="viewControllers" id="GXW-D4-1F5"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HfD-8r-4tZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1149" y="-82"/>
-        </scene>
-        <!--View Controller - Invoice-->
-        <scene sceneID="uvC-Xv-vOD">
-            <objects>
-                <viewController id="w3p-QM-byR" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="j8f-tn-ha4"/>
-                        <viewControllerLayoutGuide type="bottom" id="jOo-3Y-aXn"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Ywm-eP-Lxr">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Invoice" id="GbO-i3-1E5"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="YFc-cb-EOX" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="453" y="352"/>
         </scene>
         <!--View Controller - Setting-->
         <scene sceneID="GO4-zd-jWQ">
@@ -82,10 +63,10 @@
             </objects>
             <point key="canvasLocation" x="18" y="649"/>
         </scene>
-        <!--View Controller - Map-->
+        <!--Shop Map View Controller - Map-->
         <scene sceneID="zRU-YD-xit">
             <objects>
-                <viewController id="a2P-EQ-wTI" sceneMemberID="viewController">
+                <viewController id="a2P-EQ-wTI" customClass="ShopMapViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kfg-y8-90k"/>
                         <viewControllerLayoutGuide type="bottom" id="ZdG-AN-rgt"/>
@@ -93,13 +74,120 @@
                     <view key="view" contentMode="scaleToFill" id="c4x-iC-sY2">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="U9a-JL-Gqs">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </mapView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Map" id="Rxv-Lo-4cp"/>
+                    <connections>
+                        <outlet property="myMapView" destination="U9a-JL-Gqs" id="mtR-ZM-CY2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BBY-lK-7Cz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="453" y="-476"/>
+            <point key="canvasLocation" x="430" y="-406"/>
+        </scene>
+        <!--Invoice Table View Controller - Invoice list-->
+        <scene sceneID="XZg-sw-RfH">
+            <objects>
+                <tableViewController id="rRn-GO-UN8" customClass="InvoiceTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="xnO-ZN-p5O">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" restorationIdentifier="Cell" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="lZm-Kz-vET" detailTextLabel="dAk-tf-MeX" style="IBUITableViewCellStyleValue2" id="II7-cD-y2A">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="II7-cD-y2A" id="tNB-bH-k9u">
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lZm-Kz-vET">
+                                            <rect key="frame" x="15" y="13" width="91" height="17"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dAk-tf-MeX">
+                                            <rect key="frame" x="112" y="13" width="50" height="17"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="Ck8-OV-69D" kind="push" id="yhA-eJ-tf4"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="rRn-GO-UN8" id="zRg-oq-mk5"/>
+                            <outlet property="delegate" destination="rRn-GO-UN8" id="PJq-dI-ppb"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Invoice list" id="wWw-wR-91X"/>
+                    <connections>
+                        <outlet property="tableView" destination="xnO-ZN-p5O" id="PjF-yB-hqR"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0yX-Pq-lgy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="964" y="269"/>
+        </scene>
+        <!--Invoice Detail View Controller - Invoice-->
+        <scene sceneID="eOP-Jp-kfP">
+            <objects>
+                <viewController id="Ck8-OV-69D" customClass="InvoiceDetailViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gWa-gy-MrI"/>
+                        <viewControllerLayoutGuide type="bottom" id="3fw-dw-7RO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Nh6-Nd-DNl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9HN-6V-OIr" customClass="PDFScrollView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Invoice" id="XgT-jS-xL3"/>
+                    <connections>
+                        <outlet property="invoiceScrollView" destination="9HN-6V-OIr" id="R2r-OE-6Tm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K4E-iz-XAH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1490" y="269"/>
+        </scene>
+        <!--Navigation Controller - Invoice-->
+        <scene sceneID="BHj-Zr-Pv2">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="aMs-bD-kEB" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Invoice" id="2PX-nC-NCA"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="F0c-Vq-jQT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="rRn-GO-UN8" kind="relationship" relationship="rootViewController" id="VEM-qN-D8O"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nlX-1p-ThV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="430" y="269"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
