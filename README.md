@@ -1,4 +1,4 @@
-edu.fyp.easy2pay
+edu.fyp.smart.transaction
 ================
 
 Payment Application by implement the RFID and Bluetooth system
